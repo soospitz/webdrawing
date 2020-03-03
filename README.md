@@ -1,3 +1,3 @@
-# webdrawing
+# HTML and CSS Drawing
 
-This is a project for Drawing on the Web. :smile: 
+This is a project for Drawing on the Web. :smile: :art:
