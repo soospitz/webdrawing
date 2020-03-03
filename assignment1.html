@@ -1,0 +1,88 @@
+<doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML and CSS Collage</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		#container {
+			background-image: <img src="https://media3.giphy.com/media/JRdLMlpJr7AAw/source.gif" alt="waves"></img>;
+			background-size: cover;
+			position: fixed;
+			top: 0;
+			left: 0;
+			min-height: 100%;
+			min-width: 100%;
+			width: auto;
+			height: auto;
+		}
+		
+		img {
+				mix-blend-mode: screen;
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-height: 100%;
+				min-width: 100%;
+				width: auto;
+				height: auto;
+                z-index: -10
+		}
+		
+        #img1 {
+            z-index: 100;
+        }
+        
+		
+		audio {
+			z-index: 10;
+			mix-blend-mode: lighten;
+			position: absolute;
+			top: 50%;
+			right: 50px;
+		}
+        
+        #star {
+            min-width: 100%;
+        }
+        
+        #mist {
+            opacity: 20%;
+        }
+        
+        #audio {
+            opacity: 0%;
+        }
+        
+        #footer {
+    color: white;
+    letter-spacing: 8px;
+    opacity: 50%;
+    margin-left: 950px;
+        }
+        
+	</style>
+</head>
+
+<body>
+	<div id="container">
+        <div id="img1">
+        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/2-beautiful-vibrant-image-of-milky-way-galaxy-over-sea-landscape-i-matthew-gibson.jpg">
+    </div>
+    <div id = "star">
+    <img src="https://media.giphy.com/media/q64h8eUWnwXg4/giphy.gif" alt="stars">
+    </div>
+    <div id = "mist">
+        <img src="https://media.giphy.com/media/RI42LtoMA5mxi/giphy.gif" alt="mist">
+    </div>
+    <div id = "audio">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49267945&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    </div>
+        <div id="footer">
+        <p>Press Space Bar.</p></div>
+</body>
+</html>
