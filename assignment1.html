@@ -40,31 +40,261 @@
 		
 		audio {
 			z-index: 10;
-			mix-blend-mode: lighten;
-			position: absolute;
-			top: 50%;
-			right: 50px;
+	        mix-blend-mode: lighten;
+	        position: absolute;
+	        top: 75%;
+	        right: 150px;
+	        opacity: 50%;
 		}
         
         #star {
             min-width: 100%;
         }
         
-        #mist {
-            opacity: 20%;
+        #color {
+            opacity: 50%;
         }
         
-        #audio {
-            opacity: 0%;
-        }
         
         #footer {
-    color: white;
-    letter-spacing: 8px;
-    opacity: 50%;
-    margin-left: 950px;
+		    color: white;
+		    letter-spacing: 8px;
+		    opacity: 50%;
+		    margin-left: 950px;
         }
         
+        /* Heart */
+        html,
+		body {
+		  width: 100%;
+		  height: 100%;
+		}
+        .flex-container {
+		  width: 50%;
+		  height: 100%;
+		  position: relative;
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: center;
+		  align-items: center;
+		  opacity: 80%;
+		}
+		.hearts {
+		  position: relative;
+		  width: 138px;
+		}
+		.heart {
+		  position: absolute;
+		  top: 300px;
+		  left: 550px;
+		  width: 30px;
+		  height: 30px;
+		  border-radius: 5px;
+
+		}
+		.heart0 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate0 5s infinite;
+		  left: 0px;
+		  animation-delay: 0s;
+		  background-color: #ec2d73;
+		  opacity: 100%;
+		}
+		@keyframes animate0 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 70px;
+		    top: -15px;
+		  }
+		}
+		.heart1 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate1 5s infinite;
+		  left: 26px;
+		  animation-delay: 0.15s;
+		  background-color: #eb5324;
+		  opacity: 100%;
+		}
+		@keyframes animate1 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 100px;
+		    top: -31px;
+		  }
+		}
+
+		.heart2 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate2 5s infinite;
+		  left: 52px;
+		  animation-delay: 0.3s;
+		  background-color: #fdc800;
+		  opacity: 100%;
+		}
+		@keyframes animate2 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 130px;
+		    top: -37px;
+		  }
+		}
+
+		.heart3 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate3 5s infinite;
+		  left: 78px;
+		  animation-delay: 0.45s;
+		  background-color: #60b247;
+		  opacity: 100%;
+		}
+		@keyframes animate3 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 140px;
+		    top: -31px;
+		  }
+		}
+		.heart4 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate4 5s infinite;
+		  left: 104px;
+		  animation-delay: 0.6s;
+		  background-color: #1470bd;
+		  opacity: 100%;
+		}
+		@keyframes animate4 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 144px;
+		    top: -23px;
+		  }
+		}
+		.heart5 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate5 5s infinite;
+		  left: 130px;
+		  -webkit-animation-delay: 0.75s;
+		          animation-delay: 0.75s;
+		  background-color: #76469a;
+		  opacity: 100%;
+		}
+		@keyframes animate5 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 140px;
+		    top: -31px;
+		  }
+		}
+		.heart6 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate6 5s infinite;
+		  left: 156px;
+		  -webkit-animation-delay: 0.9s;
+		          animation-delay: 0.9s;
+		  background-color: #ec2d73;
+		  opacity: 100%;
+		}
+		@keyframes animate6 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 130px;
+		    top: -37px;
+		  }
+		}
+		.heart7 {
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate7 5s infinite;
+		  left: 182px;
+		  -webkit-animation-delay: 1.05s;
+		          animation-delay: 1.05s;
+		  background-color: #eb5324;
+		  opacity: 100%;
+		}
+		@keyframes animate7 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height:100px;
+		    top: -31px;
+		  }
+		}
+		.heart8{
+		  position: absolute;
+		  top: -5px;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 10px;
+		  animation: animate8 5s infinite;
+		  left: 208px;
+		  animation-delay: 1.2s;
+		  background-color: #fdc800;
+		  opacity: 100%;
+		}
+		@keyframes animate8 {
+		  0%, 10%, 90%, 100% {
+		    height: 20px;
+		    top: -5px;
+		  }
+		  45%, 55% {
+		    height: 70px;
+		    top: -15px;
+		  }
+		}
 	</style>
 </head>
 
@@ -73,16 +303,34 @@
         <div id="img1">
         <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/2-beautiful-vibrant-image-of-milky-way-galaxy-over-sea-landscape-i-matthew-gibson.jpg">
     </div>
-    <div id = "star">
-    <img src="https://media.giphy.com/media/q64h8eUWnwXg4/giphy.gif" alt="stars">
+
+    <div id = "color">
+        <img src="https://media.giphy.com/media/fe3zisUnJjbqM/giphy.gif" alt="color">
     </div>
-    <div id = "mist">
-        <img src="https://media.giphy.com/media/RI42LtoMA5mxi/giphy.gif" alt="mist">
-    </div>
-    <div id = "audio">
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49267945&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-    </div>
-        <div id="footer">
-        <p>Press Space Bar.</p></div>
+
+    <div class="flex-container">
+	    <div class="hearts">
+	      <div class="heart">
+	        <div class="heart0"></div>
+	        <div class="heart1"></div>
+	        <div class="heart2"></div>
+	        <div class="heart3"></div>
+	        <div class="heart4"></div>
+	        <div class="heart5"></div>
+	        <div class="heart6"></div>
+	        <div class="heart7"></div>
+	        <div class="heart8"></div>
+	      </div>
+	    </div>
+	  </div>
+
+
+
+    <audio autoplay controls>
+    	<source src="moon.mp3" type="audio/mpeg">
+	 </audio>
+
+
+
 </body>
 </html>
