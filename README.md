@@ -1,6 +1,6 @@
 # HTML and CSS Drawing
 
-This is a project for Drawing on the Web. :smile: :art:
+This is Patricia's project repository forked by Soo.
 
 Remix of Soo & Patricia's project 
 
